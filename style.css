@@ -7,4 +7,8 @@ h1, em
 {
   color: red;
 }
-/*Indiquer la balise p*/
+
+.introduction
+{
+  color: green;
+}
