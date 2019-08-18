@@ -5,14 +5,26 @@ p
   font-family: sans-serif;
 }
 
+@font-face {
+  font-family: 'PrinceOfPersia';
+  src: url('PrinceOfPersia.ttf');
+}
+
 h1
 {
   font-size: 350%;
   color: red;
-  font-family: serif;
+  font-family: 'PrinceOfPersia', Arial, serif;
+  font-style: italic;
+}
+
+em
+{
+  text-decoration: inderline;
 }
 
 .introduction, .salutations
 {
   color: green;
+  font-weight: bold;
 }
