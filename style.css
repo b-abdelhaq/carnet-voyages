@@ -2,12 +2,14 @@ p
 {
   font-size: 1.8em;
   color: blue;
+  font-family: sans-serif;
 }
 
 h1
 {
-  font-size: 350%; 
+  font-size: 350%;
   color: red;
+  font-family: serif;
 }
 
 .introduction, .salutations
