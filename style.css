@@ -3,6 +3,8 @@ p
   font-size: 1.8em;
   color: blue;
   font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: overline;
 }
 
 @font-face {
@@ -16,15 +18,28 @@ h1
   color: red;
   font-family: 'PrinceOfPersia', Arial, serif;
   font-style: italic;
+  text-align: center;
 }
 
 em
 {
-  text-decoration: inderline;
+  text-decoration: underline;
 }
 
-.introduction, .salutations
+.introduction
 {
   color: green;
-  font-weight: bold;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+.salutations
+{
+  text-decoration: blink;
+}
+
+.imageflottante
+{
+  float: left;
+  clear: both;
 }
