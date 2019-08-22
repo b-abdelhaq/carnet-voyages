@@ -1,22 +1,15 @@
-p 
+p
 {
   font-size: 1.8em;
   color: blue;
-  font-family: sans-serif;
   font-weight: bold;
-  text-decoration: overline;
-}
-
-@font-face {
-  font-family: 'PrinceOfPersia';
-  src: url('PrinceOfPersia.ttf');
 }
 
 h1
 {
   font-size: 350%;
-  color: red;
-  font-family: 'PrinceOfPersia', Arial, serif;
+  color: #7923E5;
+  font-family: Arial, serif;
   font-style: italic;
   text-align: center;
 }
@@ -24,22 +17,15 @@ h1
 em
 {
   text-decoration: underline;
+  color: rgb(192,63,88);
 }
 
 .introduction
 {
   color: green;
-  text-decoration: line-through;
-  text-align: right;
 }
 
 .salutations
 {
   text-decoration: blink;
-}
-
-.imageflottante
-{
-  float: left;
-  clear: both;
 }
