@@ -8,6 +8,7 @@ p
   font-size: 1.8em;
   color: blue;
   font-weight: bold;
+  text-shadow: 4px 4px 7px black;
 }
 
 h1
@@ -19,6 +20,7 @@ h1
   text-align: center;
   border: 7px rgba(174, 12, 0, 0.7) groove;
   border-radius: 20px / 10px;
+  box-shadow: 6px 4px 3px red;
 }
 
 mark
