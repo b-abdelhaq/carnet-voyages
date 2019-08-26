@@ -13,16 +13,20 @@ p
 h1
 {
   font-size: 350%;
-  color: rgba(121, 35, 229, 0.6);
+  color: rgba(255, 228, 227, 0.6);
   font-family: Arial, serif;
   font-style: italic;
   text-align: center;
+  border: 7px rgba(174, 12, 0, 0.7) groove;
+  border-radius: 20px / 10px;
 }
 
 mark
 {
   background-color: green;
   color: rgb(192,63,88);
+  border: 4px red solid;
+  border-radius: 10px;
 }
 
 .introduction
