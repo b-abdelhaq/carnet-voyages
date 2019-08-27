@@ -31,6 +31,22 @@ mark
   border-radius: 10px;
 }
 
+mark:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+
+a
+{
+  color: red;
+}
+
+a:active
+{
+  color: grey;
+}
+
 .introduction
 {
   color: green;
