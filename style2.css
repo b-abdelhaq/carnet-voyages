@@ -1,0 +1,11 @@
+p
+{
+  color: blue;
+  border: red solid;
+  width: 100%;
+  height: 50%;
+  max-width: 90%;
+  min-width: 40%;
+  max-height: 70%;
+  min-height: 20%;
+}
