@@ -1,58 +1,23 @@
-body
+nav
 {
-  background: url("sky.gif") fixed repeat-x;
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
 }
 
-p
+section
 {
-  font-size: 1.8em;
-  color: blue;
-  font-weight: bold;
-  text-shadow: 4px 4px 7px black;
+    display: inline-block;
+    border: 1px solid blue;
+    vertical-align: top;
 }
 
-h1
+strong
 {
-  font-size: 350%;
-  color: rgba(255, 228, 227, 0.6);
-  font-family: Arial, serif;
-  font-style: italic;
-  text-align: center;
-  border: 7px rgba(174, 12, 0, 0.7) groove;
-  border-radius: 20px / 10px;
-  box-shadow: 6px 4px 3px red;
-}
-
-mark
-{
-  background-color: green;
-  color: rgb(192,63,88);
-  border: 4px red solid;
-  border-radius: 10px;
-}
-
-mark:hover
-{
-  color: black;
-  text-decoration: underline;
-}
-
-a
-{
-  color: red;
-}
-
-a:active
-{
-  color: grey;
-}
-
-.introduction
-{
-  color: green;
-}
-
-.salutations
-{
-  text-decoration: blink;
+  color: yellow;
+  background-color: red;
+  position: relative;
+  left: 30px;
+  top: 7px;
 }
