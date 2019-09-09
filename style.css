@@ -1,23 +1,19 @@
-nav
+body
 {
-    display: inline-block;
-    width: 150px;
-    border: 1px solid black;
-    vertical-align: top;
+  background-image: url("/images/fond_jaune.png");
+  margin: 16px 40px;
 }
 
-section
-{
-    display: inline-block;
-    border: 1px solid blue;
-    vertical-align: top;
-}
+@font-face {
+  font-family: 'ballpark';
+  src: url('polices/ballpark.eot') format('eot'),
+       url('polices/ballpark.woff') format('woff'),
+       url('polices/ballpark.ttf') format('truetype'),
+       url('polices/ballpark.svg') format('svg');
 
-strong
-{
-  color: yellow;
-  background-color: red;
-  position: relative;
-  left: 30px;
-  top: 7px;
+  font-family: 'dayrom';
+  src: url('polices/dayrom.eot') format('eot'),
+       url('polices/dayrom.woff') format('woff'),
+       url('polices/dayrom.ttf') format('truetype'),
+       url('polices/dayrom.svg') format('svg');
 }
