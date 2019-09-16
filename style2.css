@@ -1,42 +1,11 @@
-div
+table
 {
-  display: flex;
-  border: grey dashed;
-  justify-content: center;
-  align-items: center;
+    border-collapse: collapse;
+    margin: 20px;
+
 }
 
-p:nth-child(2)
+td, th
 {
-  background-color: green;
-  order: 3;
-}
-
-p:nth-child(3)
-{
-  order: 1;
-}
-
-h1:nth-child(1)
-{
-  order: 4;
-  flex: 2;
-}
-
-h2:nth-child(4)
-{
-  order: 2;
-  flex: 1;
-}
-
-p
-{
-  color: blue;
-  border: red solid;
-  text-align: justify;
-  width: 400px;
-  height: 300px;
-  padding: 10px 9px;
-  margin: 20px 18px;
-  overflow: scroll;
+    border: 3px solid red;
 }
