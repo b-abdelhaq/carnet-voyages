@@ -9,3 +9,9 @@ td, th
 {
     border: 3px solid red;
 }
+
+textarea
+{
+    width: 200px;
+    height: 150px;
+}
